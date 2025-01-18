@@ -24,16 +24,20 @@ ol {
   font-size: 16px;
 }
 .header .location_mail {
+  width: 50%;
   margin-left: 100px;
 }
-.header .location_mail i{
-    margin-left: 25px;
+.header i {
+  margin-left: 25px;
 }
 .header p {
   display: inline-block;
 }
-.header .icons_donation{
-    color: white;
+.header .icons_donation a {
+  color: white;
+}
+.donate{
+    padding: 46px 50px;
 }
 
 #header_part {
