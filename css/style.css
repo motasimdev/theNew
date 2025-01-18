@@ -34,10 +34,14 @@ ol {
   display: inline-block;
 }
 .header .icons_donation{
-    margin-left: 70px;
+    margin-left: 140px;
 }
 .header .icons_donation a {
   color: white;
+  transition: .4s;
+}
+.header .icons_donation a:hover{
+  color: #7DB1F0;
 }
 .donate{
     padding: 16px 26px;
@@ -50,9 +54,11 @@ ol {
   background: rgba(0, 0, 0, 0.5);
 }
 .nav_bar{
+  padding: 0 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 .logo{
 
@@ -71,18 +77,29 @@ ol {
 .menu ul li a:hover{
     color: #029CA5;
 }
+
+.nav_icon{
+  margin-right: 40px;
+  display: flex;
+  column-gap: 10px;
+
+}
 .nav_bar .search {
     padding: 17px 17px;
     border-radius: 50%;
     background: #496F95;
-    color: white;
+    
 }
 .nav_bar .shop {
-  margin-right: 50px;
   padding: 17px 17px;
   border-radius: 50%;
   background: #496F95;
+}
+.nav_icon a{
   color: white;
-  
+  transition: .4s;
+}
+.nav_icon a:hover{
+  color: #283A5E;
 }
 /* Header Part End */
