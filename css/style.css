@@ -47,8 +47,42 @@ ol {
 
 
 #header_part {
-  padding: 50px;
   background: rgba(0, 0, 0, 0.5);
 }
+.nav_bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
 
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    padding: 0 15px;
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+    transition: .5s;
+    line-height: 100px
+}
+.menu ul li a:hover{
+    color: #029CA5;
+}
+.nav_bar .search {
+    padding: 17px 17px;
+    border-radius: 50%;
+    background: #496F95;
+    color: white;
+}
+.nav_bar .shop {
+  margin-right: 50px;
+  padding: 17px 17px;
+  border-radius: 50%;
+  background: #496F95;
+  color: white;
+  
+}
 /* Header Part End */
