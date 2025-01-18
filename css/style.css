@@ -32,6 +32,9 @@ ol {
 .header p {
   display: inline-block;
 }
+.header .icons_donation{
+    color: white;
+}
 
 #header_part {
   padding: 50px;
