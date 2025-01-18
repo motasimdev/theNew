@@ -33,12 +33,18 @@ ol {
 .header p {
   display: inline-block;
 }
+.header .icons_donation{
+    margin-left: 70px;
+}
 .header .icons_donation a {
   color: white;
 }
 .donate{
-    padding: 46px 50px;
+    padding: 16px 26px;
+    margin-left: 20px;
+    background: #00D9D7;
 }
+
 
 #header_part {
   padding: 50px;
