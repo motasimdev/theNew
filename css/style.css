@@ -122,7 +122,7 @@ ol {
   background: rgba(0, 0, 0, 0.3);
   text-align: center;
 }
-.short_one h1{
+.short_one p{
   padding: 7px 23px;
   background: rgba(255, 255, 255, 0.2);
   display: inline-block;
