@@ -131,7 +131,13 @@ ol {
   font-size: 19px;
   border-radius: 25px;
 }
-
+.overlay_heading h1{
+  padding: 0 318px;
+  color: white;
+  font-size: 58px;
+  line-height: 90px;
+  font-family: "Source Sans 3", serif;
+}
 /* Banner Part Start  */
 
 /* Banner Part End */
