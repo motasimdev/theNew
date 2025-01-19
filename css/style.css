@@ -18,10 +18,14 @@ ol {
 /* Header Part Start  */
 .header {
   padding: 15px 0;
+  /* width: 100%; */
   background: #283a5e;
   display: flex;
   color: white;
   font-size: 16px;
+  /* position: fixed;
+  top: 0;
+  left: 0; */
 }
 .header .location_mail {
   width: 50%;
@@ -51,7 +55,11 @@ ol {
 
 
 #header_part {
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.1);
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 .nav_bar{
   padding: 0 20px;
@@ -71,7 +79,7 @@ ol {
     color: white;
     font-size: 16px;
     text-transform: uppercase;
-    transition: .5s;
+    transition: .4s;
     line-height: 100px
 }
 .menu ul li a:hover{
@@ -103,3 +111,34 @@ ol {
   color: #283A5E;
 }
 /* Header Part End */
+#Banner_part{
+  background: url(../images/slide-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.overlay{
+  padding: 500px 0;
+  background: rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+.short_one{
+  padding: 20px 50px;
+  background: rgba(0, 0, 0, 0.2);
+  color: white;
+}
+/* Banner Part Start  */
+
+/* Banner Part End */
+
+/* Banner Part Start  */
+/* Banner Part End */
+
+/* Banner Part Start  */
+/* Banner Part End */
+
+/* Banner Part Start  */
+/* Banner Part End */
+
+/* Banner Part Start  */
+/* Banner Part End */
