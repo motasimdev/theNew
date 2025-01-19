@@ -118,8 +118,8 @@ ol {
   background-position: center;
 }
 .overlay{
-  padding: 500px 0;
-  background: rgba(0, 0, 0, 0.3);
+  padding: 311px 0;
+  background: rgba(0, 0, 0, 0.5);
   text-align: center;
 }
 .short_one p{
@@ -134,9 +134,23 @@ ol {
 .overlay_heading h1{
   padding: 0 318px;
   color: white;
-  font-size: 58px;
+  font-size: 55px;
   line-height: 90px;
   font-family: "Source Sans 3", serif;
+}
+.short_two a{
+  padding: 11px 26px;
+  background: linear-gradient(90deg, rgba(6,181,226,1) 0%, rgba(21,196,196,1) 100%);
+  display: inline-block;
+  color: white;
+  font-family: "Source Sans 3", serif;
+  font-size: 19px;
+  border-radius: 25px;
+  border: 5px solid rgba(49, 136, 174, 0.817);
+  transition: .5s; 
+}
+.short_two a:hover{
+  background: linear-gradient(90deg, rgba(21,196,196,1) 0%, rgba(6,181,226,1) 100%);
 }
 /* Banner Part Start  */
 
