@@ -55,11 +55,12 @@ ol {
 
 
 #header_part {
-  background: rgba(0, 0, 0, 0.1);
+  background: rgba(67, 65, 65, 0.0);
   width: 100%;
   position: fixed;
   top: 0;
   left: 0;
+  box-shadow: 0 0 1px white ;
 }
 .nav_bar{
   padding: 0 20px;
@@ -118,7 +119,7 @@ ol {
   background-position: center;
 }
 .overlay{
-  padding: 311px 0;
+  padding: 362px 0 254px;
   background: rgba(0, 0, 0, 0.5);
   text-align: center;
 }
