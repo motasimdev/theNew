@@ -56,11 +56,11 @@ ol {
 
 /* Header Part Start  */
 #header_part {
-    background: rgba(0, 0, 0, 0.5);
-    width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
   box-shadow: 0 0 1px white;
 }
 .nav_bar {
@@ -78,7 +78,7 @@ ol {
   padding: 0 15px;
   color: white;
   font-size: 16px;
-  font-family: "Source Sans 3", serif; 
+  font-family: "Source Sans 3", serif;
   text-transform: uppercase;
   transition: 0.4s;
   line-height: 100px;
@@ -171,24 +171,24 @@ ol {
 #about_part {
   padding: 120px 0 70px;
 }
-.about_image_text{
+.about_image_text {
   display: flex;
   justify-content: space-between;
 }
-.about_image_text .about_image{
+.about_image_text .about_image {
   width: 50%;
 }
-.about_image_text .about_text{
+.about_image_text .about_text {
   padding: 189px 0 182px;
   width: 50%;
 }
-.about_text .title{
-  color: #00B6D7;
+.about_text .title {
+  color: #00b6d7;
   font-size: 20px;
   font-weight: 600;
   font-family: "Source Sans 3", serif;
 }
-.about_text h2{
+.about_text h2 {
   padding: 0 118px 0 0;
   color: #242f6c;
   font-size: 46px;
@@ -196,7 +196,7 @@ ol {
   font-family: "Source Sans 3", serif;
   line-height: 60px;
 }
-.about_text p{
+.about_text p {
   padding-top: 40px;
   padding-right: 70px;
   color: #777777;
@@ -205,13 +205,12 @@ ol {
   line-height: 34px;
 }
 
-.about_btn_icon_link{
+.about_btn_icon_link {
   margin-top: 36px;
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
-  /* column-gap: 1px; */
-  
+  column-gap: 19px;
 }
 .about_btn a {
   padding: 11px 26px;
@@ -235,10 +234,17 @@ ol {
     rgba(6, 181, 226, 1) 100%
   );
 }
-.icon_link{
-
+.about_icon a{
+  color: #00a7d5;
+  font-size: 50px;
 }
-
+.about_link a{
+  color: #00a7d5;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Source Sans 3", serif;
+  text-decoration: underline;
+}
 /* About Part End */
 
 /* Banner Part Start  */
