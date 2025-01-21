@@ -13,9 +13,10 @@ ol {
 .container {
   width: 1320px;
   margin: 0 auto;
+  max-width: 100%;
 }
 /* All Common Css End */
-/* Header Part Start  */
+
 .header {
   padding: 15px 0;
   /* width: 100%; */
@@ -37,93 +38,96 @@ ol {
 .header p {
   display: inline-block;
 }
-.header .icons_donation{
-    margin-left: 140px;
+.header .icons_donation {
+  margin-left: 140px;
 }
 .header .icons_donation a {
   color: white;
-  transition: .4s;
+  transition: 0.4s;
 }
-.header .icons_donation a:hover{
-  color: #7DB1F0;
+.header .icons_donation a:hover {
+  color: #7db1f0;
 }
-.donate{
-    padding: 16px 26px;
-    margin-left: 20px;
-    background: #00D9D7;
+.donate {
+  padding: 16px 26px;
+  margin-left: 20px;
+  background: #00d9d7;
 }
 
-
+/* Header Part Start  */
 #header_part {
-  background: rgba(67, 65, 65, 0.0);
-  width: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  box-shadow: 0 0 1px white ;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+  box-shadow: 0 0 1px white;
 }
-.nav_bar{
+.nav_bar {
   padding: 0 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.logo{
+.logo {
+}
+.menu ul li {
+  display: inline-block;
+}
+.menu ul li a {
+  padding: 0 15px;
+  color: white;
+  font-size: 16px;
+  font-family: "Source Sans 3", serif; 
+  text-transform: uppercase;
+  transition: 0.4s;
+  line-height: 100px;
+}
+.menu ul li a:hover {
+  color: #029ca5;
+}
 
-}
-.menu ul li{
-    display: inline-block;
-}
-.menu ul li a{
-    padding: 0 15px;
-    color: white;
-    font-size: 16px;
-    text-transform: uppercase;
-    transition: .4s;
-    line-height: 100px
-}
-.menu ul li a:hover{
-    color: #029CA5;
-}
-
-.nav_icon{
+.nav_icon {
   margin-right: 40px;
   display: flex;
   column-gap: 10px;
-
 }
 .nav_bar .search {
-    padding: 17px 17px;
-    border-radius: 50%;
-    background: #496F95;
-    
+  padding: 17px 17px;
+  border-radius: 50%;
+  background: #496f95;
 }
 .nav_bar .shop {
   padding: 17px 17px;
   border-radius: 50%;
-  background: #496F95;
+  background: #496f95;
 }
-.nav_icon a{
+.nav_icon a {
   color: white;
-  transition: .4s;
+  transition: 0.4s;
 }
-.nav_icon a:hover{
-  color: #283A5E;
+.nav_icon a:hover {
+  color: #283a5e;
 }
 /* Header Part End */
-#Banner_part{
+
+/* Banner Part Start  */
+#Banner_part {
+  width: 100%;
+}
+.banner_image {
   background: url(../images/slide-1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
-.overlay{
-  padding: 362px 0 254px;
+.overlay {
+  padding: 362px 0 267px;
   background: rgba(0, 0, 0, 0.5);
   text-align: center;
 }
-.short_one p{
+
+.short_one p {
   padding: 7px 23px;
   background: rgba(255, 255, 255, 0.2);
   display: inline-block;
@@ -132,33 +136,53 @@ ol {
   font-size: 19px;
   border-radius: 25px;
 }
-.overlay_heading h1{
+.overlay_heading h1 {
   padding: 0 318px;
   color: white;
   font-size: 55px;
   line-height: 90px;
   font-family: "Source Sans 3", serif;
 }
-.short_two a{
+.short_two a {
   padding: 11px 26px;
-  background: linear-gradient(90deg, rgba(6,181,226,1) 0%, rgba(21,196,196,1) 100%);
+  background: linear-gradient(
+    90deg,
+    rgba(6, 181, 226, 1) 0%,
+    rgba(21, 196, 196, 1) 100%
+  );
   display: inline-block;
   color: white;
   font-family: "Source Sans 3", serif;
   font-size: 19px;
   border-radius: 25px;
-  border: 5px solid rgba(49, 136, 174, 0.817);
-  transition: .5s; 
+  box-shadow: rgba(0, 167, 213, 0.5) 0px 0px 0px 5px;
+  transition: 0.5s;
 }
-.short_two a:hover{
-  background: linear-gradient(90deg, rgba(21,196,196,1) 0%, rgba(6,181,226,1) 100%);
+.short_two a:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(21, 196, 196, 1) 0%,
+    rgba(6, 181, 226, 1) 100%
+  );
 }
-/* Banner Part Start  */
-
 /* Banner Part End */
 
-/* Banner Part Start  */
-/* Banner Part End */
+/* About Part Start  */
+#about_part {
+}
+.about_image_text{
+  padding: 120px 0 70px;
+  display: flex;
+  justify-content: space-between;
+}
+.about_image_text image{
+  width: 50%;
+}
+.about_image_text .image img{
+  width: 100%;
+}
+
+/* About Part End */
 
 /* Banner Part Start  */
 /* Banner Part End */
