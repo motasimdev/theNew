@@ -173,13 +173,17 @@ ol {
 }
 .about_image_text {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  align-items: center;
 }
 .about_image_text .about_image {
   width: 50%;
 }
+.about_image img {
+  width: 100%;
+}
 .about_image_text .about_text {
-  padding: 189px 0 182px;
+  padding-left: 70px;
   width: 50%;
 }
 .about_text .title {
@@ -234,11 +238,11 @@ ol {
     rgba(6, 181, 226, 1) 100%
   );
 }
-.about_icon a{
+.about_icon a {
   color: #00a7d5;
   font-size: 50px;
 }
-.about_link a{
+.about_link a {
   color: #00a7d5;
   font-size: 20px;
   font-weight: 600;
