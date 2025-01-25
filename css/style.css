@@ -15,6 +15,7 @@ ol {
   width: 1320px;
   margin: 0 auto;
   max-width: 100%;
+  z-index: 2;
 }
 /* All Common Css End */
 
@@ -254,7 +255,9 @@ ol {
 
 /* Time Part Start  */
 #time_part{
- padding: 10px 0;
+ padding-top: 10px;
+ padding-bottom: 50px;
+ position: relative;
 }
 .time_bg{
 background: #EBFAFA;
@@ -377,6 +380,13 @@ background: #EBFAFA;
 }
 .time_prayer_six .time_prayer_six_t{
   padding-left: 270px;
+}
+.time_prayer_images
+
+.time_prayer_image_one{
+  position: absolute;
+  bottom: 0;
+  left: 84px;
 }
 /* Time Part End */
 
