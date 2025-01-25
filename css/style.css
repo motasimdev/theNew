@@ -254,7 +254,7 @@ ol {
 
 /* Time Part Start  */
 #time_part{
-
+ padding: 10px 0;
 }
 .time_bg{
 background: #EBFAFA;
@@ -280,6 +280,96 @@ background: #EBFAFA;
   font-size: 21px;
   color: #08b3c0;
   text-decoration: underline;
+}
+.time_prayer{
+  width: 50%;
+}
+.time_prayer_one{
+  width: 80%;
+  background: #B4F0F7;
+  border-radius: 20px;
+  margin-left: auto;
+}
+.time_prayer_one p{
+  padding: 20px 25px;
+  color: #02A0A5;
+  display: inline-block;
+  font-size: 21px;
+}
+.time_prayer_one .time_prayer_one_t{
+  padding-left: 305px;
+}
+.time_prayer_two{
+  width: 80%;
+  background: #F1E1DB;
+  border-radius: 20px;
+}
+.time_prayer_two p{
+  padding: 20px 25px;
+  color: #df8f73;
+  display: inline-block;
+  font-size: 21px;
+}
+.time_prayer_two .time_prayer_two_t{
+  padding-left: 271px;
+}
+.time_prayer_three{
+  width: 80%;
+  background: #D4DDF9;
+  border-radius: 20px;
+  margin-left: auto;
+}
+.time_prayer_three p{
+  padding: 20px 25px;
+  color: #02A0A5;
+  display: inline-block;
+  font-size: 21px;
+}
+.time_prayer_three .time_prayer_three_t{
+  padding-left: 284px;
+}
+.time_prayer_four{
+  width: 80%;
+  background: #F1E1DB;
+  border-radius: 20px;
+}
+.time_prayer_four p{
+  padding: 20px 25px;
+  color: #df8f73;
+  display: inline-block;
+  font-size: 21px;
+}
+.time_prayer_four .time_prayer_four_t{
+  padding-left: 310px;
+}
+.time_prayer_five{
+  width: 80%;
+  background: #B4F0F7;
+  border-radius: 20px;
+  margin-left: auto;
+}
+.time_prayer_five p{
+  padding: 20px 25px;
+  color: #02A0A5;
+  display: inline-block;
+  font-size: 21px;
+}
+.time_prayer_five .time_prayer_five_t{
+  padding-left: 265px;
+}
+.time_prayer_six{
+  width: 80%;
+  background: #F1E1DB;
+  border-radius: 20px;
+}
+.time_prayer_six p{
+  padding: 20px 25px;
+  color: #df8f73;
+  display: inline-block;
+  font-size: 21px;
+}
+.time_prayer_six .time_prayer_six_t{
+  padding-left: 285px;
 }
 /* Time Part End */
 
