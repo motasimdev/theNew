@@ -15,7 +15,6 @@ ol {
   width: 1320px;
   margin: 0 auto;
   max-width: 100%;
-  z-index: 2;
 }
 /* All Common Css End */
 
@@ -64,6 +63,7 @@ ol {
   top: 0;
   left: 0;
   box-shadow: 0 0 1px white;
+  z-index: 2;
 }
 .nav_bar {
   padding: 0 20px;
@@ -95,12 +95,12 @@ ol {
   column-gap: 10px;
 }
 .nav_bar .search {
-  padding: 17px 17px;
+  padding: 17px 20px;
   border-radius: 50%;
   background: #496f95;
 }
 .nav_bar .shop {
-  padding: 17px 17px;
+  padding: 17px 20px;
   border-radius: 50%;
   background: #496f95;
 }
@@ -257,10 +257,11 @@ ol {
 #time_part{
  padding-top: 10px;
  padding-bottom: 50px;
- position: relative;
+ 
 }
 .time_bg{
 background: #EBFAFA;
+position: relative;
 }
 .time_flex{
   display: flex;
@@ -385,8 +386,8 @@ background: #EBFAFA;
 
 .time_prayer_image_one{
   position: absolute;
-  bottom: 0;
-  left: 84px;
+  bottom: -34px;
+  left: -45px;
 }
 /* Time Part End */
 
