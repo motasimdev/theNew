@@ -283,93 +283,100 @@ background: #EBFAFA;
 }
 .time_prayer{
   width: 50%;
+  row-gap: 20px;
 }
 .time_prayer_one{
   width: 80%;
   background: #B4F0F7;
-  border-radius: 20px;
+  border-radius: 12px;
   margin-left: auto;
+  margin-bottom: 10px;
 }
 .time_prayer_one p{
   padding: 20px 25px;
   color: #02A0A5;
   display: inline-block;
-  font-size: 21px;
+  font-size: 24px;
 }
 .time_prayer_one .time_prayer_one_t{
-  padding-left: 305px;
+  padding-left: 293px;
 }
 .time_prayer_two{
   width: 80%;
   background: #F1E1DB;
-  border-radius: 20px;
+  border-radius: 12px;
+  margin-bottom: 10px;
 }
 .time_prayer_two p{
   padding: 20px 25px;
   color: #df8f73;
   display: inline-block;
-  font-size: 21px;
+  font-size: 24px;
 }
 .time_prayer_two .time_prayer_two_t{
-  padding-left: 271px;
+  padding-left: 255px;
 }
 .time_prayer_three{
   width: 80%;
   background: #D4DDF9;
-  border-radius: 20px;
+  border-radius: 12px;
   margin-left: auto;
+  margin-bottom: 10px;
 }
 .time_prayer_three p{
   padding: 20px 25px;
-  color: #02A0A5;
+  color: #6d64ff;
   display: inline-block;
-  font-size: 21px;
+  font-size: 24px;
 }
 .time_prayer_three .time_prayer_three_t{
-  padding-left: 284px;
+  padding-left: 268px;
 }
 .time_prayer_four{
   width: 80%;
-  background: #F1E1DB;
-  border-radius: 20px;
+  background: #BFF1DC;
+  border-radius: 12px;
+  margin-bottom: 10px;
 }
 .time_prayer_four p{
   padding: 20px 25px;
-  color: #df8f73;
+  color: #44a884;
   display: inline-block;
-  font-size: 21px;
+  font-size: 24px;
 }
 .time_prayer_four .time_prayer_four_t{
-  padding-left: 310px;
+  padding-left: 299px;
 }
 .time_prayer_five{
   width: 80%;
-  background: #B4F0F7;
-  border-radius: 20px;
+  background: #F1DFE9;
+  border-radius: 12px;
   margin-left: auto;
+  margin-bottom: 10px;
 }
 .time_prayer_five p{
   padding: 20px 25px;
-  color: #02A0A5;
+  color: #ee76ba;
   display: inline-block;
-  font-size: 21px;
+  font-size: 24px;
+  margin-bottom: 10px;
 }
 .time_prayer_five .time_prayer_five_t{
-  padding-left: 265px;
+  padding-left: 248px;
 }
 .time_prayer_six{
   width: 80%;
-  background: #F1E1DB;
-  border-radius: 20px;
+  background: #B4EFF7;
+  border-radius: 12px;
 }
 .time_prayer_six p{
   padding: 20px 25px;
-  color: #df8f73;
+  color: #419fa2;
   display: inline-block;
-  font-size: 21px;
+  font-size: 24px;
 }
 .time_prayer_six .time_prayer_six_t{
-  padding-left: 285px;
+  padding-left: 270px;
 }
 /* Time Part End */
 
