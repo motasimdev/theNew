@@ -251,8 +251,17 @@ ol {
 }
 /* About Part End */
 
-/* Banner Part Start  */
-/* Banner Part End */
+/* Time Part Start  */
+#time_part{
+
+}
+.time_bg{
+background: #EBFAFA;
+}
+.time_flex{
+  display: flex;
+}
+/* Time Part End */
 
 /* Banner Part Start  */
 /* Banner Part End */
