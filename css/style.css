@@ -431,46 +431,50 @@ ol {
   -webkit-box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.16);
   -moz-box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.16);
   box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.16);
-  transition: .4s;
+  transition: 0.4s;
 }
-.offer_flex_one:hover{
-  -webkit-box-shadow: 0px 5px 8px 1px rgba(0,0,0,0.23);
--moz-box-shadow: 0px 5px 8px 1px rgba(0,0,0,0.23);
-box-shadow: 0px 5px 8px 1px rgba(0,0,0,0.23);
+.offer_flex_one:hover {
+  -webkit-box-shadow: 0px 5px 8px 1px rgba(0, 0, 0, 0.23);
+  -moz-box-shadow: 0px 5px 8px 1px rgba(0, 0, 0, 0.23);
+  box-shadow: 0px 5px 8px 1px rgba(0, 0, 0, 0.23);
 }
-.offer_flex_one img{
+.offer_flex_one img {
   width: 100%;
 }
 .offer_flex_one h2 {
   color: #242f6c;
   font-size: 32px;
   font-weight: 500;
-  transition: .4s;
+  transition: 0.4s;
 }
-.offer_flex_one h2:hover{
-  color: #029CA5;
+.offer_flex_one h2:hover {
+  color: #029ca5;
 }
 
 /* Offer Part End */
 
 /* Payment Part Start  */
-#payment_part{
+#payment_part {
+  padding-top: 2px;
+  padding-bottom: 120px;
+}
+.payment_part_bg{
   background: url(../images/paymentbg.jpg);
 }
-.payment_flex{
+.payment_flex {
   padding: 120px 0;
   display: flex;
 }
-.payment_flex_one{
+.payment_flex_one {
   width: 50%;
   padding-right: 50px;
 }
-.payment_flex_one h5{
+.payment_flex_one h5 {
   font-size: 20px;
   font-weight: 600;
   color: #00ded8;
 }
-.payment_flex_one h1{
+.payment_flex_one h1 {
   color: #242f6c;
   font-size: 50px;
   line-height: 70px;
@@ -478,20 +482,57 @@ box-shadow: 0px 5px 8px 1px rgba(0,0,0,0.23);
   padding-top: 20px;
   padding-bottom: 20px;
 }
-.payment_flex_one p{
+.payment_flex_one p {
   color: #777777;
   font-size: 20px;
   line-height: 38px;
   padding-right: 208px;
 }
-.payment_flex_two{
+.payment_flex_two {
   width: 50%;
   padding-left: 50px;
 }
-.payment_flex_two h1{
+.payment_flex_two h1 {
+  padding-bottom: 25px;
   color: #242f6c;
   font-size: 50px;
   line-height: 70px;
+}
+.payment_flex_two input {
+  height: 60px;
+  width: 260px;
+  padding-left: 30px;
+  font-size: 18px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border: 0;
+  -webkit-box-shadow: 0px 0px 6px 0px rgba(158, 255, 254, 1);
+  -moz-box-shadow: 0px 0px 6px 0px rgba(158, 255, 254, 1);
+  box-shadow: 0px 0px 6px 0px rgba(158, 255, 254, 1);
+}
+.payment_flex_two .donate_btn {
+  text-align: center;
+  margin-right: 9px;
+  padding: 27px 0;
+}
+.payment_flex_two .donate_btn a {
+  padding: 27px 245px;
+  color: #ffffff;
+  font-size: 21px;
+  background: rgb(39, 173, 207);
+  background: linear-gradient(
+    90deg,
+    rgba(39, 173, 207, 1) 0%,
+    rgba(28, 223, 220, 1) 100%
+  );
+}
+.payment_flex_two .donate_btn a:hover {
+  background: rgb(28, 223, 220);
+  background: linear-gradient(
+    90deg,
+    rgba(28, 223, 220, 1) 0%,
+    rgba(39, 173, 207, 1) 100%
+  );
 }
 /* Payment Part End */
 
