@@ -389,6 +389,16 @@ position: relative;
   bottom: -34px;
   left: -45px;
 }
+.time_prayer_image_two{
+  position: absolute;
+  bottom: 63px;
+  left: 235px;
+}
+.time_prayer_image_three{
+  position: absolute;
+  bottom: 0px;
+  left: -179px;
+}
 /* Time Part End */
 
 /* Banner Part Start  */
