@@ -419,6 +419,7 @@ ol {
 .offer_flex {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .offer_flex_one {
   padding-bottom: 10px;
