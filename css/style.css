@@ -254,147 +254,144 @@ ol {
 /* About Part End */
 
 /* Time Part Start  */
-#time_part{
- padding-top: 10px;
- padding-bottom: 50px;
- 
+#time_part {
+  padding-top: 10px;
+  padding-bottom: 50px;
 }
-.time_bg{
-background: #EBFAFA;
-position: relative;
+.time_bg {
+  background: #ebfafa;
+  position: relative;
 }
-.time_flex{
+.time_flex {
   display: flex;
   padding: 80px;
 }
-.time_text{
+.time_text {
   width: 50%;
 }
-.time_text h1{
+.time_text h1 {
   font-size: 45px;
   color: #242f6c;
 }
-.time_text .p_one{
+.time_text .p_one {
   font-size: 21px;
   color: #333333;
   padding-top: 22px;
   padding-bottom: 15px;
 }
-.time_text .p_two{
+.time_text .p_two {
   font-size: 21px;
   color: #08b3c0;
   text-decoration: underline;
 }
-.time_prayer{
+.time_prayer {
   width: 50%;
   row-gap: 20px;
 }
-.time_prayer_one{
+.time_prayer_one {
   width: 80%;
-  background: #B4F0F7;
+  background: #b4f0f7;
   border-radius: 12px;
   margin-left: auto;
   margin-bottom: 10px;
 }
-.time_prayer_one p{
+.time_prayer_one p {
   padding: 20px 25px;
-  color: #02A0A5;
+  color: #02a0a5;
   display: inline-block;
   font-size: 24px;
 }
-.time_prayer_one .time_prayer_one_t{
+.time_prayer_one .time_prayer_one_t {
   padding-left: 293px;
 }
-.time_prayer_two{
+.time_prayer_two {
   width: 80%;
-  background: #F1E1DB;
+  background: #f1e1db;
   border-radius: 12px;
   margin-bottom: 10px;
 }
-.time_prayer_two p{
+.time_prayer_two p {
   padding: 20px 25px;
   color: #df8f73;
   display: inline-block;
   font-size: 24px;
 }
-.time_prayer_two .time_prayer_two_t{
+.time_prayer_two .time_prayer_two_t {
   padding-left: 255px;
 }
-.time_prayer_three{
+.time_prayer_three {
   width: 80%;
-  background: #D4DDF9;
+  background: #d4ddf9;
   border-radius: 12px;
   margin-left: auto;
   margin-bottom: 10px;
 }
-.time_prayer_three p{
+.time_prayer_three p {
   padding: 20px 25px;
   color: #6d64ff;
   display: inline-block;
   font-size: 24px;
 }
-.time_prayer_three .time_prayer_three_t{
+.time_prayer_three .time_prayer_three_t {
   padding-left: 268px;
 }
-.time_prayer_four{
+.time_prayer_four {
   width: 80%;
-  background: #BFF1DC;
+  background: #bff1dc;
   border-radius: 12px;
   margin-bottom: 10px;
 }
-.time_prayer_four p{
+.time_prayer_four p {
   padding: 20px 25px;
   color: #44a884;
   display: inline-block;
   font-size: 24px;
 }
-.time_prayer_four .time_prayer_four_t{
+.time_prayer_four .time_prayer_four_t {
   padding-left: 299px;
 }
-.time_prayer_five{
+.time_prayer_five {
   width: 80%;
-  background: #F1DFE9;
+  background: #f1dfe9;
   border-radius: 12px;
   margin-left: auto;
   margin-bottom: 10px;
 }
-.time_prayer_five p{
+.time_prayer_five p {
   padding: 20px 25px;
   color: #ee76ba;
   display: inline-block;
   font-size: 24px;
   margin-bottom: 10px;
 }
-.time_prayer_five .time_prayer_five_t{
+.time_prayer_five .time_prayer_five_t {
   padding-left: 248px;
 }
-.time_prayer_six{
+.time_prayer_six {
   width: 80%;
-  background: #B4EFF7;
+  background: #b4eff7;
   border-radius: 12px;
 }
-.time_prayer_six p{
+.time_prayer_six p {
   padding: 20px 25px;
   color: #419fa2;
   display: inline-block;
   font-size: 24px;
 }
-.time_prayer_six .time_prayer_six_t{
+.time_prayer_six .time_prayer_six_t {
   padding-left: 270px;
 }
-.time_prayer_images
-
-.time_prayer_image_one{
+.time_prayer_images .time_prayer_image_one {
   position: absolute;
   bottom: -34px;
   left: -45px;
 }
-.time_prayer_image_two{
+.time_prayer_image_two {
   position: absolute;
   bottom: 63px;
   left: 235px;
 }
-.time_prayer_image_three{
+.time_prayer_image_three {
   position: absolute;
   bottom: 0px;
   left: -179px;
@@ -402,22 +399,37 @@ position: relative;
 /* Time Part End */
 
 /* Offer Part Start  */
-#offer_part{
+#offer_part {
   padding-top: 100px;
   padding-bottom: 70px;
 }
-.common_title{
+.common_title {
   text-align: center;
 }
-.common_title p{
+.common_title p {
   font-size: 24px;
   font-weight: 500;
-  color: #00C3D7;
+  color: #00c3d7;
 }
-.common_title h1{
+.common_title h1 {
   font-size: 40px;
   font-weight: 700;
   color: #242f6c;
+}
+.offer_flex {
+  display: flex;
+}
+.offer_flex_one {
+  text-align: center;
+  padding-bottom: 10px;
+  -webkit-box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.16);
+-moz-box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.16);
+box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.16);
+}
+.offer_flex_one h2 {
+  color: #242f6c;
+  font-size: 32px;
+  font-weight: 500;
 }
 /* Offer Part End */
 
