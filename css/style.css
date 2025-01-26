@@ -401,10 +401,12 @@ ol {
 /* Offer Part Start  */
 #offer_part {
   padding-top: 100px;
-  padding-bottom: 70px;
+  padding-bottom: 10px;
+  margin-bottom: 70px;
 }
 .common_title {
   text-align: center;
+  padding-bottom: 70px;
 }
 .common_title p {
   font-size: 24px;
@@ -412,7 +414,7 @@ ol {
   color: #00c3d7;
 }
 .common_title h1 {
-  font-size: 40px;
+  font-size: 47px;
   font-weight: 700;
   color: #242f6c;
 }
@@ -420,6 +422,7 @@ ol {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  row-gap: 30px;
 }
 .offer_flex_one {
   padding-bottom: 10px;
@@ -449,6 +452,31 @@ box-shadow: 0px 5px 8px 1px rgba(0,0,0,0.23);
 }
 
 /* Offer Part End */
+
+/* Payment Part Start  */
+#payment_part{
+  background: url(../images/paymentbg.jpg);
+}
+.payment_flex{
+  padding: 120px;
+  display: flex;
+}
+.payment_flex_one{
+  width: 50%;
+}
+/* Payment Part End */
+
+/* Banner Part Start  */
+/* Banner Part End */
+
+/* Banner Part Start  */
+/* Banner Part End */
+
+/* Banner Part Start  */
+/* Banner Part End */
+
+/* Banner Part Start  */
+/* Banner Part End */
 
 /* Banner Part Start  */
 /* Banner Part End */
