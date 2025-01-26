@@ -536,8 +536,23 @@ ol {
 }
 /* Payment Part End */
 
-/* Banner Part Start  */
-/* Banner Part End */
+/* Event Part Start  */
+#event_part{
+  padding-bottom: 10px;
+}
+.event_flex{
+  display: flex;
+}
+.event_flex_one{
+  width: 50%;
+}
+.event_flex_one_image{
+  width: 50%;
+}
+.event_flex_one_image img{
+  width: 100%;
+}
+/* Event Part End */
 
 /* Banner Part Start  */
 /* Banner Part End */
