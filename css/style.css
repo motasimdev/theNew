@@ -458,11 +458,40 @@ box-shadow: 0px 5px 8px 1px rgba(0,0,0,0.23);
   background: url(../images/paymentbg.jpg);
 }
 .payment_flex{
-  padding: 120px;
+  padding: 120px 0;
   display: flex;
 }
 .payment_flex_one{
   width: 50%;
+  padding-right: 50px;
+}
+.payment_flex_one h5{
+  font-size: 20px;
+  font-weight: 600;
+  color: #00ded8;
+}
+.payment_flex_one h1{
+  color: #242f6c;
+  font-size: 50px;
+  line-height: 70px;
+  padding-right: 45px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.payment_flex_one p{
+  color: #777777;
+  font-size: 20px;
+  line-height: 38px;
+  padding-right: 208px;
+}
+.payment_flex_two{
+  width: 50%;
+  padding-left: 50px;
+}
+.payment_flex_two h1{
+  color: #242f6c;
+  font-size: 50px;
+  line-height: 70px;
 }
 /* Payment Part End */
 
