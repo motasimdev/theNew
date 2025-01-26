@@ -401,8 +401,15 @@ position: relative;
 }
 /* Time Part End */
 
-/* Banner Part Start  */
-/* Banner Part End */
+/* Offer Part Start  */
+#offer_part{
+  padding-top: 150px;
+  padding-bottom: 70px;
+}
+.common_title {
+
+}
+/* Offer Part End */
 
 /* Banner Part Start  */
 /* Banner Part End */
