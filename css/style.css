@@ -715,6 +715,13 @@ transform: translatey(-50%);
     left: 50%;
     transform: translate(-50%,-50%);
   }
+  .support_flex_two_circle_red p{
+    font-size: 35px;
+    font-weight: 600;
+    position: absolute;
+    bottom: -56px;
+    left: 30px;
+  }
   /* .support_flex_two_circle_nblu start  */
   .support_flex_two_circle_nblue{
     height: 170px;
@@ -743,6 +750,13 @@ transform: translatey(-50%);
       top: 50%;
       left: 50%;
       transform: translate(-50%,-50%);
+    }
+    .support_flex_two_circle_nblue p{
+      font-size: 35px;
+      font-weight: 600;
+      position: absolute;
+      bottom: -56px;
+      left: -21jupx;
     }
 /* Support Part End */
 
