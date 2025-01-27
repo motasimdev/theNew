@@ -630,6 +630,19 @@ ol {
   color: #777777;
   font-size: 22px;
 }
+.support_flex_one .donate_btn{
+  padding-top: 20px;
+}
+.support_flex_one a {
+  padding: 10px 30px;
+  color: white;
+  font-size: 22px;
+  background: linear-gradient(
+    90deg,
+    rgba(28, 223, 220, 1) 0%,
+    rgba(39, 173, 207, 1) 100%
+  );
+}
 /* Support Part End */
 
 /* Banner Part Start  */
