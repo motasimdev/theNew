@@ -558,6 +558,8 @@ ol {
 }
 
 .event_flex_one_text h2{
+  padding-top: 28px;
+  padding-bottom: 8px;
   font-size: 29px;
   font-weight: 700;
   color: #242f6c;
@@ -565,12 +567,13 @@ ol {
 .event_flex_one_text ul li{
   display: inline-block;
   color: #525252;
-  font-size: 20px;
+  font-size: 18px;
 }
 .event_flex_one_text .n_city{
   margin-left: 15px;
 }
 .event_flex_one_text p{
+  padding: 14px 50px 12px 0;
  font-size: 20px;
  font-weight: 400;
  color: #777777;
