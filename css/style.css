@@ -774,10 +774,14 @@ transform: translatey(-50%);
   width: 30%;
 }
 .blog_flex_one a{
-  font-size: 30px;
+  padding: 0 15px;
+  padding-top: 10px;
+  font-size: 27px;
   font-weight: 600;
   color: black;
+  display: inline-block;
 }
+
 /* Blog Part End */
 
 /* Banner Part Start  */
