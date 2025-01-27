@@ -630,6 +630,8 @@ width: 40%;
   font-size: 44px;
 }
 .support_flex_one p {
+  padding: 30px 0;
+  line-height: 38px;
   color: #777777;
   font-size: 22px;
 }
@@ -756,7 +758,7 @@ transform: translatey(-50%);
       font-weight: 600;
       position: absolute;
       bottom: -56px;
-      left: -21jupx;
+      left: -21px;
     }
 /* Support Part End */
 
