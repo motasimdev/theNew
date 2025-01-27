@@ -709,17 +709,17 @@ transform: translatey(-50%);
     transform: translate(-50%,-50%);
   }
   /* .support_flex_two_circle_nblu start  */
-  .support_flex_two_circle_nblu{
+  .support_flex_two_circle_nblue{
     height: 170px;
     width: 170px;
-    background: #FF8F84;
+    background: #8379FE;
     border-radius: 50%;
     position: absolute;
     top: 50%;
-    left: 310px;
+    left: 580px;
     transform: translatey(-50%);
     }
-    .support_flex_two_circle_nblu .round{
+    .support_flex_two_circle_nblue .round{
       height: 110px;
       width: 110px;
       border-radius: 50%;
@@ -729,7 +729,7 @@ transform: translatey(-50%);
       left: 50%;
       transform: translate(-50%,-50%);
     }
-    .support_flex_two_circle_nblu .round_text{
+    .support_flex_two_circle_nblue .round_text{
       font-size: 30px;
       font-weight: 600;
       position: absolute;
