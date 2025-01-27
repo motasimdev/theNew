@@ -708,6 +708,35 @@ transform: translatey(-50%);
     left: 50%;
     transform: translate(-50%,-50%);
   }
+  /* .support_flex_two_circle_nblu start  */
+  .support_flex_two_circle_nblu{
+    height: 170px;
+    width: 170px;
+    background: #FF8F84;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 310px;
+    transform: translatey(-50%);
+    }
+    .support_flex_two_circle_nblu .round{
+      height: 110px;
+      width: 110px;
+      border-radius: 50%;
+      background: white;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+    }
+    .support_flex_two_circle_nblu .round_text{
+      font-size: 30px;
+      font-weight: 600;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+    }
 /* Support Part End */
 
 /* Banner Part Start  */
