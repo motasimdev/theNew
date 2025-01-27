@@ -762,8 +762,23 @@ transform: translatey(-50%);
     }
 /* Support Part End */
 
-/* Banner Part Start  */
-/* Banner Part End */
+/* Blog Part Start  */
+#blog_part{
+  padding: 100px;
+  background: #F9F9FC;
+}
+.blog_flex{
+  display: flex;
+}
+.blog_flex_one{
+  width: 30%;
+}
+.blog_flex_one a{
+  font-size: 30px;
+  font-weight: 600;
+  color: black;
+}
+/* Blog Part End */
 
 /* Banner Part Start  */
 /* Banner Part End */
