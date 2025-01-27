@@ -619,6 +619,9 @@ ol {
 .support_flex {
   display: flex;
 }
+.support_flex_one{
+width: 40%;
+}
 .support_flex_one h3 {
   color: #00b3d6;
 }
@@ -649,9 +652,14 @@ ol {
   position: relative;
 }
 .support_flex_two_circle{
-height: 70px;
-width: 70px;
+height: 170px;
+width: 170px;
 background: #0DC2F8;
+border-radius: 50%;
+position: absolute;
+top: 50%;
+left: 40px;
+transform: translatey(-50%);
 }
 /* Support Part End */
 
