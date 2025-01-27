@@ -547,6 +547,9 @@ ol {
   display: flex;
   width: 50%;
   position: relative;
+  -webkit-box-shadow: 2px 2px 8px -4px rgba(0,0,0,0.15);
+-moz-box-shadow: 2px 2px 8px -4px rgba(0,0,0,0.15);
+box-shadow: 2px 2px 8px -4px rgba(0,0,0,0.15);
 }
 .event_flex_one_image{
   width: 50%;
@@ -555,11 +558,12 @@ ol {
   width: 100%;
 }
 .event_flex_one_text{
+  width: 50%;
   padding-left: 30px;
 }
 
 .event_flex_one_text h2{
-  padding-top: 28px;
+  padding-top: 56px;
   padding-bottom: 8px;
   font-size: 29px;
   font-weight: 700;
@@ -571,14 +575,14 @@ ol {
   font-size: 18px;
 }
 .event_flex_one_text .n_city{
-  margin-left: 15px;
+  margin-left: 27px;
 }
 .event_flex_one_text p{
-  padding: 14px 50px 12px 0;
+  padding: 21px 0px 12px 0;
  font-size: 20px;
  font-weight: 400;
  color: #777777;
- line-height: 28px;
+ line-height: 40px;
 }
 .event_flex_one_text a{
   color: #0383c4;
