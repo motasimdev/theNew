@@ -642,6 +642,16 @@ ol {
     rgba(28, 223, 220, 1) 0%,
     rgba(39, 173, 207, 1) 100%
   );
+  border-radius: 5px;
+}
+.support_flex_two{
+  display: flex;
+  position: relative;
+}
+.support_flex_two_circle{
+height: 70px;
+width: 70px;
+background: #0DC2F8;
 }
 /* Support Part End */
 
