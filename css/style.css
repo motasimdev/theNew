@@ -546,6 +546,7 @@ ol {
 .event_flex_one{
   display: flex;
   width: 50%;
+  position: relative;
 }
 .event_flex_one_image{
   width: 50%;
@@ -583,6 +584,26 @@ ol {
   color: #0383c4;
   font-size: 19px;
   font-weight: 600;
+}
+.event_flex_one .badge{
+  position: absolute;
+  top: -10px;
+  left: 0;
+}
+.event_flex_one .badge p{
+  font-size: 31px;
+  color: white;
+  font-weight: 500;
+  position: absolute;
+  top: 0;
+  left: 6px;
+}
+.event_flex_one .badge .mnth{
+  font-size: 23px;
+  color: white;
+  position: absolute;
+  top: 31px;
+  left: 3px;
 }
 /* Event Part End */
 
