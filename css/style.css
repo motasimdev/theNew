@@ -542,10 +542,11 @@ ol {
 }
 .event_flex{
   display: flex;
+  justify-content: space-between;
 }
 .event_flex_one{
   display: flex;
-  width: 50%;
+  width: 48%;
   position: relative;
   -webkit-box-shadow: 2px 2px 8px -4px rgba(0,0,0,0.15);
 -moz-box-shadow: 2px 2px 8px -4px rgba(0,0,0,0.15);
