@@ -612,8 +612,17 @@ box-shadow: 2px 2px 8px -4px rgba(0,0,0,0.15);
 }
 /* Event Part End */
 
-/* Banner Part Start  */
-/* Banner Part End */
+/* Support Part Start  */
+#support_part{
+  padding: 100px 0;
+}
+.support_flex{
+  display: flex;
+}
+.support_flex_one{
+  
+}
+/* Support Part End */
 
 /* Banner Part Start  */
 /* Banner Part End */
