@@ -865,7 +865,26 @@ ol {
 /* Blog Part End */
 
 /* Footer Part Start  */
-
+#footer_part{
+  padding: 252px 0;
+}
+.footer_flex_one{
+  width: 25%;
+}
+.footer_flex_one p{
+  padding-right: 34px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #444444;
+  line-height: 36px;
+}
+.footer_flex_one ul li{
+  display: inline-block;
+}
+.footer_flex_one ul li i{
+  font-size: 30px;
+  
+}
 /* Footer Part End */
 
 /* Banner Part Start  */
