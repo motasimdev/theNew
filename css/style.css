@@ -866,15 +866,22 @@ ol {
 
 /* Footer Part Start  */
 #footer_part{
-  padding: 252px 0;
+  padding-top: 252px;
+  padding-bottom: 100px;
 }
+.footer_flex{
+  display: flex;
+}
+/* footer_flex_one start  */
 .footer_flex_one{
   width: 25%;
 }
 .footer_flex_one p{
-  padding-right: 34px;
+  padding-top: 28px;
+  padding-bottom: 28px;
+  padding-right: 38px;
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 400;
   color: #444444;
   line-height: 36px;
 }
@@ -882,9 +889,18 @@ ol {
   display: inline-block;
 }
 .footer_flex_one ul li i{
-  padding-left: 15px;
+  padding-left: 12px;
   font-size: 30px;
   color: #00C4D7;
+}
+/* footer_flex_two start  */
+.footer_flex_two{
+  width: 25%;
+}
+.footer_flex_two h1{
+  font-size: 30px;
+  font-weight: 500;
+  color: #525252;
 }
 /* Footer Part End */
 
