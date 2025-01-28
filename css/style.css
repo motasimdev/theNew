@@ -812,42 +812,42 @@ ol {
   color: #666666;
   font-weight: 400;
 }
-.f_info{
+.f_info {
   width: 70%;
   padding: 50px 50px;
   text-align: center;
   background: white;
-  -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.11);
--moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.11);
-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.11);
-position: absolute;
-bottom: -14%;
-left: 11%;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.11);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.11);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.11);
+  position: absolute;
+  bottom: -14%;
+  left: 11%;
 }
-.f_info h1{
-  color: #242F6C;
+.f_info h1 {
+  color: #242f6c;
   font-size: 40px;
 }
-.f_info p{
+.f_info p {
   padding-top: 15px;
   padding-bottom: 44px;
   color: #777777;
   font-size: 20px;
   word-spacing: 3px;
 }
-.f_info input{
-  width: 410px;
-  height: 50px;
+.f_info input {
+  width: 421px;
+  height: 63px;
   padding-left: 34px;
-  border-radius: 28px;
+  border-radius: 35px;
   border: 0;
   font-size: 18px;
   color: #777777;
-  -webkit-box-shadow: 0px 1px 8px 0px rgba(0,0,0,0.11);
--moz-box-shadow: 0px 1px 8px 0px rgba(0,0,0,0.11);
-box-shadow: 0px 1px 8px 0px rgba(0,0,0,0.11);
+  -webkit-box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.11);
+  -moz-box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.11);
+  box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.11);
 }
-.f_info a{
+.f_info a {
   padding: 13px 44px;
   border-radius: 30px;
   font-size: 18px;
@@ -859,12 +859,13 @@ box-shadow: 0px 1px 8px 0px rgba(0,0,0,0.11);
     rgba(39, 173, 207, 1) 100%
   );
   position: absolute;
-  
+  top: 65%;
+  left: 600px;
 }
 /* Blog Part End */
 
-/* Banner Part Start  */
-/* Banner Part End */
+/* Footer Part Start  */
+/* Footer Part End */
 
 /* Banner Part Start  */
 /* Banner Part End */
