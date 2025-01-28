@@ -921,14 +921,25 @@ ol {
   font-weight: 500;
   color: #525252;
 }
-.footer_flex_one p{
-  padding-top: 28px;
+.footer_flex_three p{
   padding-bottom: 28px;
   padding-right: 38px;
   font-size: 20px;
   font-weight: 400;
   color: #444444;
   line-height: 36px;
+  word-spacing: 2px;
+}
+.footer_flex_three ul li{
+  padding-bottom: 10px;
+}
+.footer_flex_three ul li i{
+  font-size: 22px;
+}
+.footer_flex_three ul li p{
+  padding: 0;
+  padding-left: 15px;
+  display: inline-block;
 }
 /* Footer Part End */
 
