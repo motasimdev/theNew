@@ -882,8 +882,9 @@ ol {
   display: inline-block;
 }
 .footer_flex_one ul li i{
+  padding-left: 15px;
   font-size: 30px;
-  
+  color: #00C4D7;
 }
 /* Footer Part End */
 
